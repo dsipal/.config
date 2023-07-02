@@ -1,0 +1,14 @@
+shell:
+  program: /usr/bin/fish
+  args:
+    - -l
+    - -c
+    - 'tmux attach || tmux'
+font:
+  normal:
+    family: SFMono Nerd Font Mono
+scrolling:
+  history: 10000
+  multiplier: 3
+  faux_multiplier: 3
+  auto_scroll: false
