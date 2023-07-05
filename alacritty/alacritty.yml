@@ -3,12 +3,13 @@ shell:
   args:
     - -l
     - -c
-    - 'tmux attach || tmux'
+    - 'tmux attach || tmux -f ~/.config/tmux/.tmux.conf'
 font:
   normal:
     family: SFMono Nerd Font Mono
+
 scrolling:
   history: 10000
-  multiplier: 3
+  multiplier: 3 
   faux_multiplier: 3
   auto_scroll: false
